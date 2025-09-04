@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Factory Method Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Factory Method Pattern Demo</h2>
+
+  <div class="card">
+    <h3>🍔 Food Delivery Users</h3>
+    <select id="userType">
+      <option value="customer">Customer</option>
+      <option value="delivery">Delivery Partner</option>
+      <option value="restaurant">Restaurant</option>
+    </select>
+    <button onclick="createUser()">Create User</button>
+    <p id="userOutput"></p>
+  </div>
+
+  <div class="card">
+    <h3>🏦 Bank Accounts</h3>
+    <select id="accountType">
+      <option value="savings">Savings Account</option>
+      <option value="current">Current Account</option>
+      <option value="loan">Loan Account</option>
+    </select>
+    <button onclick="createAccount()">Create Account</button>
+    <p id="accountOutput"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
